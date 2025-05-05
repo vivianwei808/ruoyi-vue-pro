@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * 项目的启动类
- *
+ * <p>
  * 如果你碰到启动的问题，请认真阅读 https://doc.iocoder.cn/quick-start/ 文章
  * 如果你碰到启动的问题，请认真阅读 https://doc.iocoder.cn/quick-start/ 文章
  * 如果你碰到启动的问题，请认真阅读 https://doc.iocoder.cn/quick-start/ 文章
@@ -17,6 +17,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class YudaoServerApplication {
 
     public static void main(String[] args) {
+        // 启动 Redis 服务
+//        RedisServer redisServer = new RedisServer(6379);
+//        try {
+//            redisServer.start();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
         // 如果你碰到启动的问题，请认真阅读 https://doc.iocoder.cn/quick-start/ 文章
         // 如果你碰到启动的问题，请认真阅读 https://doc.iocoder.cn/quick-start/ 文章
         // 如果你碰到启动的问题，请认真阅读 https://doc.iocoder.cn/quick-start/ 文章
